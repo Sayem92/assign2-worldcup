@@ -1,0 +1,346 @@
+body{
+    width: 1600px;
+    height: 1908px;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto Slab', serif;
+}
+
+/* -----------------
+        top black banner
+ --------------- */
+ .top-banner{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    color: #FFFFFF;
+    background-color: #161616;
+    height: 646px;
+    width: 1321px;
+    margin-left: 140px;
+    margin-top: 50px;
+    border-radius: 30px;
+}
+.top-text{
+    Font-size: 50px;
+    Font-style: Bold;
+    padding-left: 100px;
+    padding-right: 30px;
+    padding-top: 100px;
+    
+    
+}
+.top-text h1{
+    margin: 0px;
+}
+.top-text p{
+    Font-style: Regular;
+    Font-size: 20px;
+}
+.top-text button{
+    color: white;
+    font-size: 20px;
+   background-color: #DD0000;
+   width: 187px;
+   height: 56px;
+   border-radius: 5px;
+   padding-top: 5px;
+}
+.top-img img{
+    Width:581px;
+    Height:600px;
+    padding-right: 40px;
+    padding-top: 46px;
+}
+ /*--------------------- all country style -------------------------------- */
+
+ .container2{
+    width: 1321px;
+    margin-left: 140px;
+}
+.all-cards{
+    margin-top: 150px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+.asite{
+    height: 312px;
+    width: 312px;
+    background-color: #161616;
+    border-radius: 15px;
+    font-weight: bold;
+
+}
+.asite a{
+    text-decoration: none;
+    display: block;
+    font-size: 20px;
+    text-align: center;
+    background-color: white;
+    border: 2px solid ;
+    border-radius: 5px;
+    height: 50px;
+    width: 252px;
+    margin: 25px 25px;
+   padding-top: 15px;
+   color: #000;
+}
+#upcoming-color{
+    background-color: #DD0000;
+    color: white;
+    border: none;
+}
+.card{
+    width: 312px;
+    height: 362px;
+   
+    border-radius: 15px;
+    border: 1px solid rgba(211, 211, 211, 0.76);
+ }
+ /* -----------------------------card style ------------------- */
+ 
+ .cards{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+    margin-left: 20px;
+    
+ }
+ .card{
+    width: 312px;
+    height: 200px;
+    background-color: whitesmoke;
+    border-radius: 15px;
+    text-align: center;
+    padding-top: 60px;
+ }
+ .card span{
+    font-size: 26px;
+    padding: 0 20px;
+    /* background-color: #DD0000; */
+    
+ }
+ .view-button{
+    margin-top: 60px;
+   margin-left:740px;
+   padding: 20px 40px;
+   font-size: 20px;
+   font-weight: 600;
+   background-color: #DD0000;
+   border: none;
+   color: #FFFFFF;
+   visibility: hidden;
+ }
+ /* -------------------------------footer style ---------------- */
+
+ footer{
+    height: 444px;
+    width: 100%;
+    margin-top: 140px;
+    background-color: black;
+    color: white;
+ }
+ /* ----------------------------footer info style -------------- */
+ .footer-top{
+    margin: 0 120px;
+    padding-top: 130px;
+    padding-bottom: 70px;
+    text-align: center;
+    border: 1px solid rgba(112, 106, 106, 0.425);
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    
+  
+ }
+ .footer-top button{
+    height: 60px;
+    width: 95px;
+    font-size: 40px;
+    font-weight: 700;
+    color: white;
+    background-color: black;
+ }
+ .footer-link{
+    padding-top: 50px;
+    padding-left: 320px;
+ }
+ .footer-link button{
+   color: white;
+   background-color: #161616;
+    margin: 0 20px;
+    font-size: 16px;
+
+ }
+
+
+
+
+
+
+ /*-------------------- 
+         responsive   mobile device 
+ ---------- */
+ @media only screen and (max-width:678px) {
+
+    .top-banner{
+        grid-template-columns: repeat(1,1fr);
+        width: 678px; 
+        height: 100%;
+        margin-left: 0;
+        
+    }
+    .top-text{
+        padding-left: 0;
+        text-align: center;
+    }
+    .top-img img{
+        padding-left: 35px;
+        
+       } 
+       .container2{
+        margin-left: 0;
+    }
+.all-cards{
+        grid-template-columns: repeat(1, 1fr);
+        margin-top: 10px;  
+}
+.cards{
+    grid-template-columns: repeat(1, 1fr); 
+    margin-left: 0;
+    margin-top: 24px;
+    padding: 0 150px;
+    
+}
+
+.asite {
+  width: 678px;
+  margin-left: 0px;
+  background-color: #FFFFFF;
+}
+.asite a{
+    margin-left: 200px;
+    border:1px solid rgba(128, 128, 128, 0.37) ;
+    border-radius: 15px;
+}
+footer{
+    width: 678px;
+    height: 412px;
+    margin-top: 24px;
+   
+}
+.footer-top{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.footer-link{
+    padding-left: 280px;
+    padding-top: 20px;
+}
+.footer-link button{
+    display: block;
+    margin-top: 20px;
+    font-size: 10px;
+    color: rgba(211, 211, 211, 0.699);
+   
+}
+
+}  
+
+
+
+/* ---------------------------------
+        tablet siz
+ e------------------------- */
+ @media only screen and (min-width:679px) and (max-width:992px){
+   
+    .top-banner{
+        width: 850px;
+        height: 392px;
+        margin-left:0px;
+    }
+    .top-text{
+        padding-top: 61px;
+        padding-left: 76px;
+      width: 316px;
+      height: 296px;
+    } 
+    .top-text h1{
+        width: 289px;
+        height: 150px;
+        font-size: 40px;
+    }
+    .top-text p{
+        width: 316px;
+        height: 48px;
+        font-size: 12px;
+    }
+    .top-text button {
+        width: 161px; 
+        height: 48px;
+    }
+    .top-img img{
+        Width:323px;
+        Height:345px;
+        margin-left: 50px;
+    }
+    /* ------cards style ----- */
+    .container2{
+        margin-left: 0px;
+    }
+    .all-cards{
+        grid-template-columns: repeat(1,1fr);
+        margin-top: 30px;
+       padding-left: 0px;
+    }
+    .asite{
+        width: 850px;
+        height: 120px;
+        display: flex;
+        background-color: #FFFFFF;
+    }
+    .asite a{
+        border:1px solid rgba(128, 128, 128, 0.37) ;
+        border-radius: 15px;
+    }
+    .cards{
+        grid-template-columns: repeat(2, 1fr);
+       width: 992px;
+       gap: 15px;
+       margin-left: 5px;
+       
+    }
+    #card3-none{
+        display: none;
+        
+    }
+    .card{
+        width: 312px;
+        height: 362px;
+       
+    }
+    .view-button{
+        visibility: visible;
+        margin-left:360px;
+    }
+    footer{
+        width: 992px;
+        margin-top: 100px;
+        
+    }
+    .footer-top{
+        padding-top: 100px;
+    }
+    .footer-link{
+        padding-top: 50px;
+        padding-left:120px;
+        text-align: center;
+        width: 750px;
+    }
+    .footer-link button{
+        text-align: center;
+        padding-top: 15px;
+       
+    }
+    .footer-link, .footer-link button{
+        background-color: #000;
+        color: lightgray;
+    }
